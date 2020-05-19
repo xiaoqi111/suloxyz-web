@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    name: krjrobot
+    url: jdbc:mysql://3.135.246.92:3306/xyz_webapp_temp?characterEncoding=utf-8&transformedBitIsBoolean=true&useSSL=false&serverTimezone=UTC
+    username: liutengfei
+    password: ltf107834
+    initialSize: 2
+    minIdle: 5
+    maxActive: 100
+
